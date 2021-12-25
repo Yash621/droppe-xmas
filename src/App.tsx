@@ -1,8 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import React from "react";
-
 import Main from "./components/Main";
 import MyCart from "./components/MyCart/MyCart";
 import AppCSS from "./App.module.css";
@@ -25,7 +22,6 @@ function App() {
         <Main />
       </div>
       <footer className={AppCSS.thefooter}>
-        {" "}
         <h1>Thanks for the task ! :)</h1>
       </footer>
     </div>
