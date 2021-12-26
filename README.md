@@ -1,6 +1,6 @@
 # Droppe Xmas
 
-This is my task assignment for Droppe Frontend Developer position. 
+Droppe Xmas is an application built for helping parents for managing their children's gifts in an effective manner.
 
 View demo: [Droppe Xmas demo](https://droppe-xmas.web.app/).
 
@@ -18,7 +18,7 @@ This will run the app in the development mode.
 
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-##Here are some snapshots of the application for reference:
+## Here are some snapshots of the application for reference:
 
 ![alt text](https://github.com/Yash621/droppe-xmas/blob/master/assets/Screenshot_2021-12-27_02-36-54.png "title-1")                
 
