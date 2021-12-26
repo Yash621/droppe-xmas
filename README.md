@@ -2,7 +2,7 @@
 
 Droppe Xmas is an application built for helping parents for managing their children's gifts in an effective manner.
 
-View demo: [Droppe Xmas demo](https://droppe-xmas.web.app/).
+View demo: [Droppe Xmas demo](https://droppe-xmas.web.app/)
 
 ## Guide for running the project locally
 
