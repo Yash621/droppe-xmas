@@ -32,8 +32,7 @@ const Modal: React.FC<IModal> = ({ children }) => {
     return (
       <div className={ModalCSS.checkOutContainer}>
         <button onClick={() => setOpen(true)} className={ModalCSS.checkoutBtn}>
-          <RiShoppingCartLine />
-          Submit your choices
+         <h3>Submit your choices</h3> 
         </button>
         <div className={ModalCSS.discardedApprovedCounter}>  <span className={ModalCSS.spanDiscarded}>
             {discardedItems.length}

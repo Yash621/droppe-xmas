@@ -35,26 +35,22 @@
 }
 
 .checkOutContainer {
-  width: 30%;
+  width: 100%;
   height: 10%;
   margin-top: 20px;
   display: flex;
   justify-content: space-between;
-  z-index: 20;
+  z-index: 10;
   position: fixed;
-
-  /* background-color: white; */
+  /* background-color: yellow; */
 }
 .checkOutContainer span {
   width: 25px;
   height: 20px;
-
   border-radius: 100%;
   text-align: center;
-
   margin: 0px 2px;
   font-size: 18px;
-  border: 2px solid white;
   padding: 10px 15px;
 }
 .spanApproved {
@@ -69,23 +65,26 @@
   outline: none;
   position: relative;
   border-radius: 10px;
-  width: 40%;
-  height: 50px;
+  width: 15%;
+  height: 80%;
   font-size: 15px;
   background-color: #05aa6c;
   color: white;
-  padding: 20px;
+  /* padding: 20px; */
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-left: 20px;
+  z-index: 11;
 }
 .checkoutBtn:hover {
   background-color: #d9082b;
 }
 .discardedApprovedCounter {
-  /* background-color: yellow; */
+  /* background-color: pink; */
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: 10px;
+  /* margin-left: 10px; */
+  width: 15%;
 }
