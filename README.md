@@ -1,6 +1,6 @@
 # Droppe Xmas
 
-This is my task assignment for Droppe Frontend Developer position. View demo: Droppe Xmas demo. [Create React App](https://droppe-xmas.web.app/).
+This is my task assignment for Droppe Frontend Developer position. View demo: [Droppe Xmas demo.](https://droppe-xmas.web.app/).
 
 ## Available Scripts
 
