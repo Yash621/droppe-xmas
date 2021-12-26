@@ -2,7 +2,7 @@
 
 This is my task assignment for Droppe Frontend Developer position. View demo: [Droppe Xmas demo.](https://droppe-xmas.web.app/).
 
-## Available Scripts
+## Guide for running the project locally
 
 In the project directory, you can run:
 
