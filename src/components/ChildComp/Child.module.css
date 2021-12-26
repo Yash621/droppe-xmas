@@ -1,0 +1,78 @@
+.wishListContainer {
+  width: 100%;
+  padding: 25px;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.childContainerProducts {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  width: 100%;
+
+  border-radius: 10px;
+  min-height: 40%;
+  height: 75%;
+  flex: 1;
+  max-height: 100%;
+}
+.childContainerProducts div {
+  flex: 1;
+}
+
+.itemContainer {
+  display: flex;
+  padding: 0;
+  margin: 0 auto;
+  flex-direction: row;
+  border-bottom: 1px solid #ccc;
+  width: 80%;
+
+  justify-content: center;
+  align-items: center;
+  max-height: 35%;
+}
+
+.buttonsContainer {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 55px;
+}
+.buttonsContainer button {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  cursor: pointer;
+  display: flex;
+
+  flex-direction: row;
+  align-items: center;
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+.approve {
+  background-color: #23887d;
+}
+.approve:hover {
+  background-color: #38c394;
+}
+.disapprove {
+  background-color: #ffb0b2;
+}
+.disapprove:hover {
+  background-color: #ff0547;
+}
