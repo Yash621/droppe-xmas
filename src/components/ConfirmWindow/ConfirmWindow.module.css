@@ -66,7 +66,7 @@
   border: none;
   outline: none;
   cursor: pointer;
-  background-color: #23887d;
+  background-color: #2c4f2d;
 }
 .confirmBtn:hover {
   background-color: #38c394;
@@ -81,10 +81,10 @@
   border: none;
   outline: none;
   cursor: pointer;
-  background-color: #a55d5f;
+  background-color: #d9082b;
 }
 .cancelBtn:hover {
-  background-color: #ff0547;
+  background-color: pink;
 }
 
 .spinner {

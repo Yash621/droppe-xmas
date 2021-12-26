@@ -26,12 +26,12 @@
   outline: none;
   cursor: pointer;
   font-size: 45px;
-  color: #c57c7e;
+  color: red;
   background-color: white;
   border-radius: 10px;
 }
 .closeButton:hover {
-  color: #ff0547;
+  color: pink;
 }
 
 .checkOutContainer {

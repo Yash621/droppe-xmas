@@ -5,9 +5,9 @@
   margin-bottom: 50px;
   display: flex;
   flex-direction: column;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
-    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
-  background-color: #fee57c;
+  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px; */
+  background-color: #94c06b;
   border-radius: 10px;
 }
 
@@ -16,7 +16,7 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  background-color: #fee57c;
+  background-color: #94c06b;
   width: 100%;
   border-radius: 10px;
   min-height: 40%;
@@ -71,5 +71,5 @@
   background-color: #d9082b;
 }
 .disapprove:hover {
-  background-color: pink;
+  background-color: #f2a5c4;
 }
