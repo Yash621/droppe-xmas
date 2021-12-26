@@ -13,7 +13,7 @@ function App() {
       <h1 className={AppCSS.logo}>
         <FaTree /> Droppe Xmas <FaTree />
       </h1>
-      <div>
+      <div style={{height: '100%'}}>
         <div
           style={{ display: "flex", justifyContent: "flex-end", width: "100%" }}
         >
@@ -21,9 +21,7 @@ function App() {
         </div>
         <Main />
       </div>
-      <footer className={AppCSS.thefooter}>
-        <h1>Thanks for visiting Droppe Xmas !</h1>
-      </footer>
+  
     </div>
   );
 }

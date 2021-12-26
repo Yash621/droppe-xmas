@@ -6,6 +6,7 @@ import { useFetch } from "../Hooks/useFetch";
 import { useAppDispatch, useAppSelector } from "../Redux/hooks";
 import { addProductsFromApi } from "../Redux/MainSlice";
 import Spinner from "./Spinner/Spinner";
+import AppCSS from "../App.module.css";
 
 export interface IuseFetchAllProducts {
   response: IProductDesc[];
@@ -28,7 +29,7 @@ const Main = () => {
   } else if (error) {
     return (
       <h1 style={{ textAlign: "center", color: "red" }}>
-        Error. Something went wrong!
+        Error, Something went wrong!
       </h1>
     );
   }
@@ -40,9 +41,10 @@ const Main = () => {
         flexDirection: "column",
         margin: "0 auto",
         height: "100%",
-        justifyContent: "center",
+        justifyContent: "space-between",
         alignItems: "center",
         background: "#94C06B",
+        paddingTop: "150px",
       }}
     >
       {myChildren.map((el, index) => {
@@ -54,6 +56,9 @@ const Main = () => {
           />
         );
       })}
+          <footer className={AppCSS.thefooter}>
+        <h1>Thanks for visiting Droppe Xmas !</h1>
+      </footer> 
     </div>
   );
 };
