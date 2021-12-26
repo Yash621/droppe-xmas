@@ -88,3 +88,8 @@
   /* margin-left: 10px; */
   width: 15%;
 }
+@media only screen and (max-width: 800px) {
+  .checkoutBtn {
+    font-size: 12px;
+  }
+}

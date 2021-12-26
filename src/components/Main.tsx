@@ -44,7 +44,7 @@ const Main = () => {
         justifyContent: "space-between",
         alignItems: "center",
         background: "#94C06B",
-        paddingTop: "150px",
+        paddingTop: "100px",
       }}
     >
       {myChildren.map((el, index) => {
