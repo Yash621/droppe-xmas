@@ -41,6 +41,7 @@ const Main = () => {
         margin: "0 auto",
         height: "100%",
         justifyContent: "center",
+        alignItems: "center",
         background: "#94C06B",
       }}
     >
