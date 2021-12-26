@@ -3,15 +3,15 @@
   width: 90%;
   flex: 1;
   margin: 0 auto;
-  padding: 5px;
+  /* padding: 5px; */
   justify-content: space-evenly;
   align-items: flex-start;
   max-height: 100px;
   max-height: 120px;
-  padding-bottom: 15px;
+  /* padding-bottom: 15px; */
 }
 .productContainer:hover {
-  background-color: rgb(223, 223, 223);
+  background-color: #feffbf;
 }
 .imgContainer {
   width: 100%;
@@ -23,21 +23,23 @@
   height: 100px;
   object-fit: contain;
   border: 1px solid #ccc;
-  padding: 5px;
-  margin: 5px;
+  padding: 10px;
 }
 .productContainer p {
-  font-size: 15px;
+  font-size: 20px;
 }
 .productContainer span {
   font-size: 20px;
   font-weight: 700;
+  margin-right: 20px;
 }
 
 .discountDiv {
-  position: relative;
+  /* position: relative; */
   display: flex;
-  width: 100px;
+  width: 100%;
+  /* background-color: red; */
+  align-items: center;
 }
 
 .discountSpan {

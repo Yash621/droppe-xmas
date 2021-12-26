@@ -9,6 +9,7 @@
   border-radius: 10px;
   display: flex;
   flex-direction: column;
+  color: white;
 }
 .approvedContainer h1 {
   border-radius: 2px;
