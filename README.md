@@ -12,6 +12,6 @@ Then open your terminal and enter the given command:
 
 ### `npm start`
 
-This will run the app in the development mode. /
+This will run the app in the development mode. 
 
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
