@@ -34,11 +34,11 @@ const Modal: React.FC<IModal> = ({ children }) => {
         <button onClick={() => setOpen(true)} className={ModalCSS.checkoutBtn}>
           <RiShoppingCartLine />
           Submit your choices
-          <span className={ModalCSS.spanDiscarded}>
+        </button>
+        <div className={ModalCSS.discardedApprovedCounter}>  <span className={ModalCSS.spanDiscarded}>
             {discardedItems.length}
           </span>
-          <span className={ModalCSS.spanApproved}>{approvedItems.length} </span>
-        </button>
+          <span className={ModalCSS.spanApproved}>{approvedItems.length} </span></div>
       </div>
     );
   } else
