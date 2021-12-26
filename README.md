@@ -18,4 +18,4 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 Here are some snapshots of the application for reference:
 
-![alt text](https://github.com/Yash621/droppe-xmas/blob/master/Screenshot_2021-12-27_02-36-54(1).png "title-1")                
+![alt text](https://github.com/Yash621/droppe-xmas/blob/master/Screenshot_2021-12-27_02-36-54 (1).png "title-1")                
