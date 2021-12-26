@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Droppe Xmas
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is my task assignment for Droppe Frontend Developer position. View demo: Droppe Xmas demo. [Create React App](https://droppe-xmas.web.app/).
 
 ## Available Scripts
 
