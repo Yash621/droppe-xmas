@@ -12,11 +12,10 @@
   flex-direction: column;
 }
 .approvedContainer h1 {
-  background-color: #21965b;
+  background-color: #2c4f2d;
   border-radius: 2px;
   text-align: center;
   color: #ffffff;
-
   padding: 5px;
   font-size: 18px;
 }

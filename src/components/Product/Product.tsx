@@ -63,7 +63,7 @@ const Product: React.FC<IProductProp> = ({ productId }) => {
         <div className={ProductCSS.discountDiv}>
           {" "}
           <span>
-            {product?.price.toFixed(2) + "€"}
+            {product?.price.toFixed(2) + "₹"}
             {product?.discount ? (
               <div className={ProductCSS.discountSpan}>
                 -{product.discount}%

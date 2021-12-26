@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App">
       <h1 className={AppCSS.logo}>
-        <FaTree /> Droppe Xmas
+        <FaTree /> Droppe Xmas <FaTree />
       </h1>
       <div>
         <div
@@ -22,7 +22,7 @@ function App() {
         <Main />
       </div>
       <footer className={AppCSS.thefooter}>
-        <h1>Thanks for the task ! :)</h1>
+        <h1>Thanks for visiting Droppe Xmas !</h1>
       </footer>
     </div>
   );

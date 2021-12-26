@@ -17,31 +17,31 @@ const initialState: IReduxMainSlice = {
   myChildren: [
     {
       id: 1,
-      name: "Pekka",
+      name: "Yash",
       image:
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVY3efFyktSBShjhBcNUt2JuH3F1r0qnlt1g&usqp=CAU",
     },
     {
       id: 2,
-      name: "Mikko",
+      name: "Daksh",
       image:
         "https://www.pngitem.com/pimgs/m/424-4240458_one-ok-rock-stand-out-fit-in-from.png",
     },
     {
       id: 3,
-      name: "Juha",
+      name: "Tushar",
       image:
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdBkq9ItXGCTqTIW4BdBlaEpZQVllKv8gkQGpdhVwfbAIuj9-4yOzapTjdNE0r14wSJoE&usqp=CAU",
     },
     {
       id: 4,
-      name: "Jonna",
+      name: "Nitya",
       image:
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlCT3cJxdz3-ntu8ixFRexArdaknweGrBQrw&usqp=CAU",
     },
     {
       id: 5,
-      name: "Erkku",
+      name: "Puneet",
       image:
         "https://st4.depositphotos.com/18690434/20926/v/450/depositphotos_209266078-stock-illustration-boy-kid-avatar-icon-vector.jpg",
     },

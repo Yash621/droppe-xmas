@@ -70,7 +70,7 @@ const MyCart = () => {
             <h1>Approved wishes cart</h1>
             <div>
               <span>Total value:</span>
-              <p>{sumTotal().toFixed(2)}€</p>
+              <p>{sumTotal().toFixed(2)}₹</p>
             </div>
             <button className={MyCartCSS.btnBack} onClick={() => setStep(1)}>
               <BiSkipPrevious />
@@ -98,7 +98,7 @@ const MyCart = () => {
                   <div>
                     {" "}
                     <div> Normal price:</div>
-                    <p>{calculateNormalPrice(el.productId, el.quantity)}€</p>
+                    <p>{calculateNormalPrice(el.productId, el.quantity)}₹</p>
                   </div>
                   <div>
                     {" "}
@@ -108,8 +108,8 @@ const MyCart = () => {
                         ? calculateQuantDiscount(
                             el.productId,
                             el.quantity
-                          )?.toFixed(2) + "€"
-                        : calculateNormalPrice(el.productId, el.quantity) + "€"}
+                          )?.toFixed(2) + "₹"
+                        : calculateNormalPrice(el.productId, el.quantity) + "₹"}
                     </p>
                   </div>
                 </div>
