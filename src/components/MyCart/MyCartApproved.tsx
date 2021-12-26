@@ -1,8 +1,8 @@
 import React from "react";
 
-import { useAppSelector } from "../../../../xmasDroppe/src/Redux/hooks";
-import Approved from "../../../../xmasDroppe/src/components/Approved/Approved";
-import ChildrenImage from "../../../../xmasDroppe/src/components/ChildrenImage/ChildrenImage";
+import { useAppSelector } from "../../../../droppe-xmas/src/Redux/hooks";
+import Approved from "../../../../droppe-xmas/src/components/Approved/Approved";
+import ChildrenImage from "../../../../droppe-xmas/src/components/ChildrenImage/ChildrenImage";
 
 const MyCartApproved = () => {
   const allApproved = useAppSelector(

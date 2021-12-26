@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 
-import { useAppSelector } from "../../../../xmasDroppe/src/Redux/hooks";
-import ConfirmWindow from "../../../../xmasDroppe/src/components/ConfirmWindow/ConfirmWindow";
-import Modal from "../../../../xmasDroppe/src/components/Modal/Modal";
-import Product from "../../../../xmasDroppe/src/components/Product/Product";
+import { useAppSelector } from "../../../../droppe-xmas/src/Redux/hooks";
+import ConfirmWindow from "../../../../droppe-xmas/src/components/ConfirmWindow/ConfirmWindow";
+import Modal from "../../../../droppe-xmas/src/components/Modal/Modal";
+import Product from "../../../../droppe-xmas/src/components/Product/Product";
 import CombineWishList from "./CombineWishList";
 import MyCartCSS from "./MyCart.module.css";
 import { BiSkipPrevious } from "react-icons/bi";

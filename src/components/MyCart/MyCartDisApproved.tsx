@@ -1,7 +1,7 @@
 import React from "react";
-import { useAppSelector } from "../../../../xmasDroppe/src/Redux/hooks";
-import ChildrenImage from "../../../../xmasDroppe/src/components/ChildrenImage/ChildrenImage";
-import Discarded from "../../../../xmasDroppe/src/components/Discarded/Discarded";
+import { useAppSelector } from "../../../../droppe-xmas/src/Redux/hooks";
+import ChildrenImage from "../../../../droppe-xmas/src/components/ChildrenImage/ChildrenImage";
+import Discarded from "../../../../droppe-xmas/src/components/Discarded/Discarded";
 
 const MyCartDisApproved = () => {
   const allDisApproved = useAppSelector(
