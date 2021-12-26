@@ -92,4 +92,10 @@
   .checkoutBtn {
     font-size: 12px;
   }
+  .discardedApprovedCounter {
+    margin-top: 130px;
+  }
+  .spanApproved {
+    background-color: #05aa6c;
+  }
 }
