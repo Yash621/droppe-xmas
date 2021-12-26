@@ -41,7 +41,7 @@ const Main = () => {
         margin: "0 auto",
         height: "100%",
         justifyContent: "center",
-        background: "#f5f5f5",
+        background: "#94C06B",
       }}
     >
       {myChildren.map((el, index) => {
